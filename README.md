@@ -1,5 +1,5 @@
-(jQuery) URL Parser v2.2
-======================
+(jQuery) URL Parser v2.2 - Rails Gem
+====================================
 
 An AMD compatible utility to parse urls and provide easy access to their attributes (such as the protocol, host, port etc), path segments, querystring parameters, fragment parameters and more.
 
@@ -8,6 +8,21 @@ The core parser functionality is based on the [Regex URI parser by Steven Levith
 **Note this used to have a jQuery dependency - this is now optional. See below for details**
 
 **License:** Available for use under a MIT-style license. If you need a different license for any reason please just let me know.
+
+Installation
+------------
+
+Add the following line into your Gemfile
+
+```ruby
+gem 'jQuery-URL-Parser-Rails'
+```
+
+and require the purl library in the application.js file
+
+```javascript
+//= require purl
+```
 
 To jQuery or *not* to jQuery, that is the question...
 ----------------------------------------------------
